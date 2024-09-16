@@ -6,28 +6,17 @@
 
     <VerticalStackLayout Spacing="5">
         <Label Text="Titel" FontSize="Title" FontAttributes="Bold" BackgroundColor="LightGray" />
-        <Label Text="1" FontSize="Large" HorizontalOptions="Start" BackgroundColor="LightSlateGrey" 
-               HorizontalTextAlignment="End" />
-        <Label Text="2" FontSize="Large" HorizontalOptions="End" BackgroundColor="LightSkyBlue"  />
-        <Label Text="3" FontSize="Large" HorizontalOptions="Center" BackgroundColor="LightBlue" />
-        
-        <Label Text="4" FontSize="Large"  BackgroundColor="LightSteelBlue" 
-               WidthRequest="100" 
-               HorizontalOptions="Start"
-               HorizontalTextAlignment="Start" />
-        <Label Text="5" FontSize="Large"  BackgroundColor="LightCyan" 
-               WidthRequest="100" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
-        <Label Text="6" FontSize="Large"  BackgroundColor="LightSeaGreen" 
-               WidthRequest="100" HorizontalOptions="End" HorizontalTextAlignment="End" />
-        
-        <Label Text="7" FontSize="Large" HorizontalOptions="Center" BackgroundColor="LightGreen" 
-               HorizontalTextAlignment="Center" Padding="20"/>
-        <Label Text="8" FontSize="Large" HorizontalOptions="Start" BackgroundColor="LightGoldenrodYellow" 
-               WidthRequest="100" HorizontalTextAlignment="End" />
-        <Label Text="9" FontSize="Large" HorizontalOptions="End" BackgroundColor="LightYellow" WidthRequest="100" 
-               HorizontalTextAlignment="Start" />
-        <Label Text="10" FontSize="Large" HorizontalOptions="End" BackgroundColor="LightPink" Margin="20" Padding="20"/>
-        <Label Text="11" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="LightCoral" Padding="20" HorizontalTextAlignment="Center" />
-        <Label Text="12" FontSize="Large" HorizontalOptions="Fill" BackgroundColor="LightSalmon" Padding="20" Margin="20" HorizontalTextAlignment="Center" />
+        <Label Text="1" FontSize="Large" BackgroundColor="LightSlateGrey"  />
+        <Label Text="2" FontSize="Large" BackgroundColor="LightSkyBlue"  />
+        <Label Text="3" FontSize="Large" BackgroundColor="LightBlue" />
+        <Label Text="4" FontSize="Large" BackgroundColor="LightSteelBlue" />
+        <Label Text="5" FontSize="Large" BackgroundColor="LightCyan" />
+        <Label Text="6" FontSize="Large" BackgroundColor="LightSeaGreen" />
+        <Label Text="7" FontSize="Large" BackgroundColor="LightGreen" />
+        <Label Text="8" FontSize="Large" BackgroundColor="LightGoldenrodYellow" />
+        <Label Text="9" FontSize="Large" BackgroundColor="LightYellow" />
+        <Label Text="10" FontSize="Large" BackgroundColor="LightPink" />
+        <Label Text="11" FontSize="Large" BackgroundColor="LightCoral" />
+        <Label Text="12" FontSize="Large" BackgroundColor="LightSalmon" />
     </VerticalStackLayout>
 </ContentPage>

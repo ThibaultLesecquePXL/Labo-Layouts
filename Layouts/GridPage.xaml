@@ -3,24 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Layouts.GridPage"
              Title="GridPage">
-    <Grid ColumnSpacing="5" RowSpacing="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"
-               Text="Titel" FontSize="Title" BackgroundColor="DarkGray"/>
-        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="DarkBlue"/>
-        <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="DarkGreen"/>
-        <Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="DarkMagenta"/>
-        <Label Grid.Row="3" Grid.Column="0" BackgroundColor="DarkOrange"/>
-        <Label Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" BackgroundColor="DarkRed" Margin="20"/>
-    </Grid>
+
 </ContentPage>

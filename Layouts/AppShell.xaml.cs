@@ -1,9 +1,10 @@
-﻿namespace Layouts;
-
-public partial class AppShell : Shell
+﻿namespace Layouts
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

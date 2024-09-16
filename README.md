@@ -1,6 +1,6 @@
 # Labo-Layouts
 
-## StackLayout
+## Deel 1: StackLayout
 - Voeg een StackLayout toe aan de MainPage
 - Gebruik onderstaande labels om het voorbeeld zo goed mogelijk na te bouwen
 
@@ -21,10 +21,30 @@
 <Label Text="11" FontSize="Large" BackgroundColor="LightCoral" />
 <Label Text="12" FontSize="Large" BackgroundColor="LightSalmon" />
 ```
-> Tip: Gebruik de eigenschappen:
+> Tip: Gebruik de volgende eigenschappen:
 >	- Spacing 
 >	- Margin 
 >	- Padding
 >	- HorizontalOptions
 >	- HorizontalTextAlignment
 >	- WidthRequest
+
+## Deel 2: GridLayout
+- Voorzie in de MainPage een knop om te navigeren naar de GridPage
+- Voeg op de GridPage een Grid layout toe met:
+	- 4 rijen:
+		- de eerste rij is even hoog als de inhoud
+		- de overige 3 rijen verdelen de overgebleven ruimte
+	- 3 kolommen die even breed zijn
+- Zorg voor voldoende witruimte tussen de rijen en kolommen
+- Gebruik onderstaande labels als startcode en bouw de layout zo goed mogelijk na
+```
+<Label Text="Titel" FontSize="Title" BackgroundColor="DarkGray"/>
+<Label BackgroundColor="DarkBlue"/>
+<Label BackgroundColor="DarkGreen"/>
+<Label BackgroundColor="DarkMagenta"/>
+<Label BackgroundColor="DarkOrange"/>
+<Label BackgroundColor="DarkRed"/>
+```
+
+![screenshot](assets/grid.png)

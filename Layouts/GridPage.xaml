@@ -4,4 +4,47 @@
              x:Class="Layouts.GridPage"
              Title="GridPage">
 
+    <VerticalStackLayout>
+        <Label Text="Titel" FontSize="Title" FontAttributes="Bold" BackgroundColor="LightGray"/>
+        <Label Text="1" FontSize="Large" BackgroundColor="LightSlateGrey" 
+               HorizontalOptions="Start"/>
+        <Label Text="2" FontSize="Large" BackgroundColor="LightSkyBlue" 
+               HorizontalOptions="End"/>
+        <Label Text="3" FontSize="Large" BackgroundColor="LightBlue" 
+               HorizontalOptions="Center"/>
+        <Label Text="4" FontSize="Large" BackgroundColor="LightSteelBlue"
+               HorizontalOptions="Start"
+               WidthRequest="100"/>
+        <Label Text="5" FontSize="Large" BackgroundColor="LightCyan"
+               HorizontalOptions="Center"
+               WidthRequest="100"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="6" FontSize="Large" BackgroundColor="LightSeaGreen" 
+               HorizontalOptions="End"
+               WidthRequest="100"
+               HorizontalTextAlignment="End"/>
+        <Label Text="7" FontSize="Large" BackgroundColor="LightGreen"
+               HorizontalOptions="Center"
+               Padding="10"/>
+        <Label Text="8" FontSize="Large" BackgroundColor="LightGoldenrodYellow"
+               HorizontalOptions="Start"
+               WidthRequest="100"
+               HorizontalTextAlignment="End"
+               />
+        <Label Text="9" FontSize="Large" BackgroundColor="LightYellow" 
+               HorizontalOptions="End"
+               WidthRequest="100"
+               HorizontalTextAlignment="Start"/>
+        <Label Text="10" FontSize="Large" BackgroundColor="LightPink"
+               HorizontalOptions="End"
+               Padding="10"
+               Margin="10"/>
+        <Label Text="11" FontSize="Large" BackgroundColor="LightCoral" 
+               Padding="10"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="12" FontSize="Large" BackgroundColor="LightSalmon" 
+               Padding="10"
+               Margin="10"
+               HorizontalTextAlignment="Center"/>
+    </VerticalStackLayout>
 </ContentPage>
